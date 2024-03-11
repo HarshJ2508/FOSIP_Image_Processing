@@ -14,7 +14,7 @@ def contrast_stretching(image):
     return stretched_image
 
 # Read the satellite or aerial image
-input_image = cv2.imread('../Images/06_low_contrast_img.jpg')
+input_image = cv2.imread('../Images/image-1.jpg')
 
 # Convert the image to grayscale (if needed)
 gray_image = cv2.cvtColor(input_image, cv2.COLOR_BGR2GRAY)
